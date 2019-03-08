@@ -8,20 +8,29 @@ $_SESSION['txtTotal'] = $totalValue;
 <html lang="en" xmins="https.//www.w3.org/1999/xhtml"
     <head>
           <meta charset="utf-8" />
-          <title> Ebusiness 1</title>
-          <link rel="stylesheet" href="style.css" type="text/css" />
+          <title> eBusiness </title>
+           <link href="Style.css" rel="stylesheet">
     </head>
    
-    <body>
-   
-        <div class="form">
+    <body id='main'>
+   <header>
+           
+        <h1>Shop Calculator</h1>
+            
+            <ul>
+                <li><a class="active" href="Index.php">Homepage</a></li>
+                <li><a  href="ConsultingServices.html">Consulting Services</a></li>
+                <li><a href="eBus1.php">eBusiness</a></li>
+            </ul>
+        </header>
+        
+      
             <form name="intCalc" method="post" action="eBus2.php">
-                  <h1>Shop Calculator</h1>
                
                 <center>
                     <table cellspacing="10">
                         <tr>
-                          <td><b><h1 style="background-color:rgba(255, 99, 71, 0.2);">Select a Consulting Service:</b></td>
+                          <td><b><h1 style="background-color:#484848;">Select a Consulting Service:</b></td>
                         </tr>
                          <tr>
                             <td>Blockchain @ $1000</td>
@@ -70,7 +79,6 @@ $_SESSION['txtTotal'] = $totalValue;
                     <input type="submit" name="btnAdd" id="btnAdd" onclick="" value="Add to Shopping Cart" />
                 </center>
             </form>
-        </div>
        
         <script type="text/javascript">
             function calcSub() {

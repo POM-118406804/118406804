@@ -15,7 +15,7 @@ and open the template in the editor.
         <header>
            
         <h1>Welcome to my Website</h1>
-            
+        <h2>Please run locally as Heroku is not working. <a href="https://ivanproject118406804.herokuapp.com/">Website Link</a></h2>
             <ul>
                 <li><a class="active" href="Index.php">Homepage</a></li>
                 <li><a href="CV.html">CV</a></li>
